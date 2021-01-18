@@ -30,11 +30,6 @@ public class Board{
         return input_y;
     }
 
-    public String getInput_state(){
-        System.out.println("黒のコマなら”E”を、白のコマなら”W”を入力してください。");
-        String input_state = scanner.nextLine();
-        return input_state;
-    }
 
     
     public void setBoard(){

@@ -5,6 +5,7 @@ public class GameMaster {
 
         Board board = new Board(6, 6);
         board.setBoard();
+        System.out.println("ゲームが始まります。");
         while(true){
             board.putKoma(board.getInput_x(), board.getInput_y(), "B");
             board.printBoard();
