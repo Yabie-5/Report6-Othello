@@ -1,11 +1,12 @@
 package jp.ac.uryukyu.ie.e205744;
 
-/*
-*コマの状態を管理するクラス
+/**
+* コマの状態を管理するクラス
 * state コマの状態
 * x コマの位置のx座標
 * y コマの位置のy座標
-*/
+ */
+
 
 public class Koma{
     private String state;
@@ -19,7 +20,7 @@ public class Koma{
         this.y = _y;
     }
 
-    /*
+    /**
     * コマの状態を取得するメソッド。
     * state コマの状態
     */
@@ -27,7 +28,7 @@ public class Koma{
         return this.state;
     }
 
-    /*
+    /**
     * コマの状態を変更するメソッド。
     * upState 入力したコマの状態
     */
@@ -35,7 +36,7 @@ public class Koma{
         this.state = upState;
     }
 
-    /*
+    /**
     * コマの状態を位置を取得するメソッド。
     * pos コマの位置
     */

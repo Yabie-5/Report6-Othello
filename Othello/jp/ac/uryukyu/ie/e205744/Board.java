@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
+/**
+ * 盤上にコマをおいたりひっくり返すことができるクラス。
+ * 現在はコマで挟んでもひっくり返すことができない。
+ * komaList 盤面にあるコマ
+ * xNum 盤面の幅
+ * yNum 盤面の高さ
+ * 
+ */
 public class Board{
     private List<Koma> komaList;
     private int xNum = 0;
